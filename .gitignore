@@ -1,0 +1,32 @@
+# Dependencies and build
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python
+ml-prototype/venv
+ml-prototype/__pycache__
+ml-prototype/*.pkl
+__pycache__/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Logs and editor
+logs
+*.log
+npm-debug.log*
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
